@@ -1,6 +1,7 @@
 .DS_Store
 
 .idea
+.cache
 .python-version
 package-lock.json
 yarn.lock
