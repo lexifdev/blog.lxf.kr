@@ -63,6 +63,11 @@ which는 내가 실행하려는 프로그램이 어디에 존재하는지 보여
 
 (이 글은 [PyJog](https://fb.com/pyjog) 모임에서 작성되었습니다.)
 
+---
+Thanks to
+
+* [정윤원](https://youknowone.github.io/) 님의 날카로운 리뷰 덕에 더 나은 글이 될 수 있었습니다.
+* [이한](https://sn0wle0pard.io/) 님이 알려주신 [termtosvg](https://nbedos.github.io/termtosvg/)를 신나게 썼습니다.  
 
 ---
 
