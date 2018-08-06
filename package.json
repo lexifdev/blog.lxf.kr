@@ -1,5 +1,5 @@
 {
-  "name": "learn-gatsby",
+  "name": "lxf-blog",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
