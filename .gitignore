@@ -1,0 +1,10 @@
+.DS_Store
+
+.idea
+.python-version
+package-lock.json
+yarn.lock
+node_modules
+venv
+
+public
