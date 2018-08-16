@@ -26,7 +26,6 @@ export const pageQuery = graphql`
 
 
 export default (props) => {
-    console.log(props)
     const { data, location } = props
     const { html, frontmatter } = data.markdownRemark
     const { title, date } = frontmatter
