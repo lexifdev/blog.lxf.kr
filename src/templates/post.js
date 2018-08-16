@@ -3,6 +3,7 @@ import Layout from '../base'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
+import 'prismjs/themes/prism-solarizedlight.css'
 
 
 export const pageQuery = graphql`
