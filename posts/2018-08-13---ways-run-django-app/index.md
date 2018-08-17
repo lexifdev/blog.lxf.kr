@@ -9,7 +9,7 @@ date: 2018-08-13
 ### Q. 왜 pythonanywhere 에서는 runserver를 하지 않았는데도 사이트에 들어가지나요?
 
 이걸 이해하기 위해서는 먼저 django app과 서버는 독립적이라는 점을 먼저 이해해야 합니다.
-python manage.py runserver는 서버를 돌리기 위한 여러 방법 중에 한가지 이고
+python manage.py runserver는 서버를 돌리기 위한 여러 방법 중에 하나 이고
 django app을 돌리는 방법은 여러가지가 있습니다.
 
 지금까지와는 다르게 한번 gunicorn 이라는 서버로 django를 돌려보겠습니다.
@@ -27,6 +27,8 @@ pip install uwsgi
 uwsgi --http :8000 --module djangogirls.wsgi:application
 ```
 ![running uwsgi](1.gif)
+
+마찬가지로 잘 들어가지는것을 확인할 수 있습니다.
 
 pythonanywhere는 바로 이 uwsgi를 이용해 서버를 돌리고 있습니다.
 우리가 실행 시킨적은 없었지만 pythonanywhere는 기본적으로 uwsgi를 항상 켜두고 있습니다.
