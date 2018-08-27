@@ -79,7 +79,7 @@ runserver는 파일들을 감시하고 있다가 파일의 내용이 수정되�
 ---
 > TMI WARNING : 여기서 부터는 알 필요 없는 내용을 다루고 있습니다.
 
-## 그런데 이 wsgi는 뭔가요?
+### 그런데 이 wsgi는 뭔가요?
 
 django app을 수정하지 않고 서로 다른 서버를 사용한 것을 눈치 채셨을겁니다.
 이는 django app과 서버들이 모두 [wsgi](https://www.python.org/dev/peps/pep-0333/)라는 같은 표준을 따랐기 때문입니다.
