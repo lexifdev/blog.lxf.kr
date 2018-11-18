@@ -21,7 +21,7 @@ Django는 동적 사이트를 위한 프레임워크 입니다.
 
 이런 정적인 사이트의 경우 Django 보다는 정적 페이지 생성에 더 최적화 되어있는 프레임워크를 주로 사용합니다. 
 
-이러한 프레임워크로는 [Jekyll]이 가장 널리 사용되고 있고 좀 더 모던한 프레임워크로 [Gatsby]같은게 있습니다.
+이러한 프레임워크로는 [Jekyll](https://jekyllrb.com/)이 가장 널리 사용되고 있고 좀 더 모던한 프레임워크로 [Gatsby](https://www.gatsbyjs.org/)같은게 있습니다.
 [이 블로그도 gatsby로 만들어져 있습니다.](https://github.com/lexifdev/blog.lxf.kr)
 
 [Django Distill](https://github.com/mgrp/django-distill) 이라는 확장을 사용해서 Django로 만들어진 동적 사이트에서 정적 페이지를 추출할 수도 있습니다.
