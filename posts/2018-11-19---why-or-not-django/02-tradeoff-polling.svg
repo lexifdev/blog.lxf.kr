@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="552" height="873.197" viewBox="0, 0, 552, 873.197">
+  <g id="Layer_1" transform="translate(-883, -40.833)">
+    <g>
+      <g id="actor163">
+        <path d="M959,135.092 L959,488.755" fill="#000000"/>
+        <path d="M959,135.092 L959,488.755" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M887,131.911 L1031,131.911 C1032.657,131.911 1034,132.808 1034,133.913 L1034,173.283 C1034,174.389 1032.657,175.285 1031,175.285 L887,175.285 C885.343,175.285 884,174.389 884,173.283 L884,133.913 C884,132.808 885.343,131.911 887,131.911 z" fill="#ECECFF"/>
+        <path d="M887,131.911 L1031,131.911 C1032.657,131.911 1034,132.808 1034,133.913 L1034,173.283 C1034,174.389 1032.657,175.285 1031,175.285 L887,175.285 C885.343,175.285 884,174.389 884,173.283 L884,133.913 C884,132.808 885.343,131.911 887,131.911 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 959, 154.436)">
+        <tspan x="-17.3" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">브라우저</tspan>
+      </text>
+    </g>
+    <g>
+      <g id="actor163">
+        <path d="M1159,135.092 L1159,488.755" fill="#000000"/>
+        <path d="M1159,135.092 L1159,488.755" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M1087,131.911 L1231,131.911 C1232.657,131.911 1234,132.808 1234,133.913 L1234,173.283 C1234,174.389 1232.657,175.285 1231,175.285 L1087,175.285 C1085.343,175.285 1084,174.389 1084,173.283 L1084,133.913 C1084,132.808 1085.343,131.911 1087,131.911 z" fill="#ECECFF"/>
+        <path d="M1087,131.911 L1231,131.911 C1232.657,131.911 1234,132.808 1234,133.913 L1234,173.283 C1234,174.389 1232.657,175.285 1231,175.285 L1087,175.285 C1085.343,175.285 1084,174.389 1084,173.283 L1084,133.913 C1084,132.808 1085.343,131.911 1087,131.911 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1159, 154.436)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">서버</tspan>
+      </text>
+    </g>
+    <g>
+      <g id="actor165">
+        <path d="M1359,135.538 L1359,488.458" fill="#000000"/>
+        <path d="M1359,135.538 L1359,488.458" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M1287,132.208 L1431,132.208 C1432.657,132.208 1434,133.103 1434,134.206 L1434,173.493 C1434,174.597 1432.657,175.491 1431,175.491 L1287,175.491 C1285.343,175.491 1284,174.597 1284,173.493 L1284,134.206 C1284,133.103 1285.343,132.208 1287,132.208 z" fill="#ECECFF"/>
+        <path d="M1287,132.208 L1431,132.208 C1432.657,132.208 1434,133.103 1434,134.206 L1434,173.493 C1434,174.597 1432.657,175.491 1431,175.491 L1287,175.491 C1285.343,175.491 1284,174.597 1284,173.493 L1284,134.206 C1284,133.103 1285.343,132.208 1287,132.208 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1359, 154.191)">
+        <tspan x="-12.975" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">어딘가</tspan>
+      </text>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 221.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,231.208 L1159,231.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,229.208 L1156,233.208 L1162,231.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 245.208)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,254.208 L959,254.208" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,256.208 L962,252.208 L956,254.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 267.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,277.208 L1159,277.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,275.208 L1156,279.208 L1162,277.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 292.708)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,301.708 L959,301.708" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,303.708 L962,299.708 L956,301.708 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 313.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,323.208 L1159,323.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,321.208 L1156,325.208 L1162,323.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 337.208)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,346.208 L959,346.208" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,348.208 L962,344.208 L956,346.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 359.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,369.208 L1159,369.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,367.208 L1156,371.208 L1162,369.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1064.214, 385.208)">
+        <tspan x="-14.364" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="10" fill="#9370DB">응</tspan>
+        <tspan x="-5.714" y="2.5" font-family="Helvetica-Bold" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-2.936" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="10" fill="#9370DB">여기</tspan>
+      </text>
+      <g>
+        <path d="M1159,393.708 L959,393.708" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,395.708 L962,391.708 L956,393.708 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 405.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,415.208 L1159,415.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,413.208 L1156,417.208 L1162,415.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 429.208)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,438.208 L959,438.208" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,440.208 L962,436.208 L956,438.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 451.708)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,461.208 L1159,461.208" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,459.208 L1156,463.208 L1162,461.208 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 476.708)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,485.708 L959,485.708" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,487.708 L962,483.708 L956,485.708 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1262, 345.542)">
+        <tspan x="-10.039" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">안녕</tspan>
+        <tspan x="7.261" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">!</tspan>
+      </text>
+      <g>
+        <path d="M1362,355.042 L1162,355.042" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1165,357.042 L1165,353.042 L1159,355.042 z" fill="#000000"/>
+      </g>
+    </g>
+    <path d="M1165.5,355.708 C1179.728,364.911 1175.551,387.632 1162,390.208" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text transform="matrix(1, 0, 0, 1, 1214.974, 381.708)">
+      <tspan x="-31.601" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">짧은</tspan>
+      <tspan x="-12.571" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="-9.515" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">반응</tspan>
+      <tspan x="9.515" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="12.571" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">시간</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 909.76, 343.708)">
+      <tspan x="-20.558" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">많은</tspan>
+      <tspan x="-1.528" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="1.528" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">요청</tspan>
+    </text>
+    <path d="M956,229.208 C956,229.208 937,268.208 937,338.208 C937,408.208 941.667,440.208 956,485.708" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <g>
+      <g id="actor163">
+        <path d="M959,559.366 L959,913.03" fill="#000000"/>
+        <path d="M959,559.366 L959,913.03" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M887,556.186 L1031,556.186 C1032.657,556.186 1034,557.082 1034,558.188 L1034,597.558 C1034,598.664 1032.657,599.56 1031,599.56 L887,599.56 C885.343,599.56 884,598.664 884,597.558 L884,558.188 C884,557.082 885.343,556.186 887,556.186 z" fill="#ECECFF"/>
+        <path d="M887,556.186 L1031,556.186 C1032.657,556.186 1034,557.082 1034,558.188 L1034,597.558 C1034,598.664 1032.657,599.56 1031,599.56 L887,599.56 C885.343,599.56 884,598.664 884,597.558 L884,558.188 C884,557.082 885.343,556.186 887,556.186 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 959, 578.711)">
+        <tspan x="-17.3" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">브라우저</tspan>
+      </text>
+    </g>
+    <g>
+      <g id="actor163">
+        <path d="M1159,559.366 L1159,913.03" fill="#000000"/>
+        <path d="M1159,559.366 L1159,913.03" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M1087,556.186 L1231,556.186 C1232.657,556.186 1234,557.082 1234,558.188 L1234,597.558 C1234,598.664 1232.657,599.56 1231,599.56 L1087,599.56 C1085.343,599.56 1084,598.664 1084,597.558 L1084,558.188 C1084,557.082 1085.343,556.186 1087,556.186 z" fill="#ECECFF"/>
+        <path d="M1087,556.186 L1231,556.186 C1232.657,556.186 1234,557.082 1234,558.188 L1234,597.558 C1234,598.664 1232.657,599.56 1231,599.56 L1087,599.56 C1085.343,599.56 1084,598.664 1084,597.558 L1084,558.188 C1084,557.082 1085.343,556.186 1087,556.186 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1159, 578.711)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">서버</tspan>
+      </text>
+    </g>
+    <g>
+      <g id="actor165">
+        <path d="M1359,559.812 L1359,912.733" fill="#000000"/>
+        <path d="M1359,559.812 L1359,912.733" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M1287,556.483 L1431,556.483 C1432.657,556.483 1434,557.377 1434,558.481 L1434,597.768 C1434,598.871 1432.657,599.766 1431,599.766 L1287,599.766 C1285.343,599.766 1284,598.871 1284,597.768 L1284,558.481 C1284,557.377 1285.343,556.483 1287,556.483 z" fill="#ECECFF"/>
+        <path d="M1287,556.483 L1431,556.483 C1432.657,556.483 1434,557.377 1434,558.481 L1434,597.768 C1434,598.871 1432.657,599.766 1431,599.766 L1287,599.766 C1285.343,599.766 1284,598.871 1284,597.768 L1284,558.481 C1284,557.377 1285.343,556.483 1287,556.483 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 1359, 578.466)">
+        <tspan x="-12.975" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">어딘가</tspan>
+      </text>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 645.983)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,655.483 L1159,655.483" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,653.483 L1156,657.483 L1162,655.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 669.483)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,678.483 L959,678.483" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,680.483 L962,676.483 L956,678.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 737.983)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,747.483 L1159,747.483" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,745.483 L1156,749.483 L1162,747.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 761.483)">
+        <tspan x="-8.65" y="2" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">아니</tspan>
+      </text>
+      <g>
+        <path d="M1159,770.483 L959,770.483" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,772.483 L962,768.483 L956,770.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1059, 829.983)">
+        <tspan x="-31.509" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">새</tspan>
+        <tspan x="-22.859" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-20.081" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">메세지</tspan>
+        <tspan x="5.869" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="8.648" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">있니</tspan>
+        <tspan x="25.948" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">?</tspan>
+      </text>
+      <g>
+        <path d="M959,839.483 L1159,839.483" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1156,837.483 L1156,841.483 L1162,839.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1064.214, 853.983)">
+        <tspan x="-14.364" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="10" fill="#9370DB">응</tspan>
+        <tspan x="-5.714" y="2.5" font-family="Helvetica-Bold" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="-2.936" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="10" fill="#9370DB">여기</tspan>
+      </text>
+      <g>
+        <path d="M1159,862.483 L959,862.483" fill-opacity="0" stroke="#9370DB" stroke-width="1" stroke-dasharray="3,3"/>
+        <path d="M962,864.483 L962,860.483 L956,862.483 z" fill="#000000"/>
+      </g>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 1262, 769.816)">
+        <tspan x="-10.039" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">안녕</tspan>
+        <tspan x="7.261" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB">!</tspan>
+      </text>
+      <g>
+        <path d="M1362,779.316 L1162,779.316" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+        <path d="M1165,781.316 L1165,777.316 L1159,779.316 z" fill="#000000"/>
+      </g>
+    </g>
+    <path d="M1167,779.987 C1181.228,802.528 1177.051,858.177 1163.5,864.486" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text transform="matrix(1, 0, 0, 1, 1214.974, 805.986)">
+      <tspan x="-26.844" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">긴</tspan>
+      <tspan x="-17.329" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="-14.273" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">반응</tspan>
+      <tspan x="4.758" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="7.814" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">시간</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 909.76, 767.986)">
+      <tspan x="-20.558" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">적은</tspan>
+      <tspan x="-1.528" y="2.5" font-family="Helvetica-Bold" font-size="11" fill="#000000"> </tspan>
+      <tspan x="1.528" y="2.5" font-family="AppleSDGothicNeo-Bold" font-size="11" fill="#000000">요청</tspan>
+    </text>
+    <path d="M956,653.486 C956,653.486 937,692.486 937,762.486 C937,832.486 941.667,864.486 956,909.986" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 1159, 54.833)">
+      <tspan x="-70.768" y="6" font-family="Helvetica" font-size="21" fill="#000000">Polling</tspan>
+      <tspan x="-7.727" y="6" font-family="AppleSDGothicNeo-Regular" font-size="21" fill="#000000">의</tspan>
+      <tspan x="10.438" y="6" font-family="Helvetica" font-size="21" fill="#000000"> </tspan>
+      <tspan x="16.273" y="6" font-family="AppleSDGothicNeo-Regular" font-size="21" fill="#000000">딜레마</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1159, 102.167)">
+      <tspan x="-33.64" y="5" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">잦은</tspan>
+      <tspan x="-2.5" y="5" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="2.5" y="5" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">확인</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 1159, 531.51)">
+      <tspan x="-33.64" y="5" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">드문</tspan>
+      <tspan x="-2.5" y="5" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="2.5" y="5" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">확인</tspan>
+    </text>
+  </g>
+</svg>

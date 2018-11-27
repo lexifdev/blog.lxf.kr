@@ -4,10 +4,6 @@ author: lexifdev
 date: 2018-11-19
 ---
 
-Work in Progress!
-현재의 이미지들이 없는 상태론 이해하기가 무척 어려워 보입니다. 이미지는 차근차근 추가해 나가도록 하겠습니다.
-
-
 # Django를 쓰지 않는 이유
 
 ## 정적인 사이트
@@ -16,7 +12,7 @@ Django는 동적 사이트를 위한 프레임워크 입니다.
 동적 웹사이트는 구동을 위해 [웹 어플리케이션 서버](ways-run-django), [데이터베이스](where-my-data)같은 구성이 필수적입니다.
 
 변화가 거의 없는 사이트에서 매 요청마다 동일한 HTML을 새로 생성하는 것은 비효율 적입니다.
-매번 같은 내용의 HTML을 생성할 것이라면 미리 .html 파일로 저장하고 이를 제공하는 것이 효율적일겁니다.  
+매번 같은 내용의 HTML을 생성할 것이라면 미리 이 내용을 .html 파일로 저장하고 이를 바로 제공하는 것이 효율적일겁니다.  
 이렇게 제공하면 구성이 단순한 만큼 속도도 빠르고 비용이 저렴하며 [github.io](https://pages.github.com/)나 [netlify.com](https://www.netlify.com) 처럼 일정 용량 무료로 제공하는 곳들도 있습니다. 
 
 이런 정적인 사이트의 경우 Django 보다는 정적 페이지 생성에 더 최적화 되어있는 프레임워크를 주로 사용합니다. 
@@ -31,19 +27,24 @@ Django는 동적 사이트를 위한 프레임워크 입니다.
 웹브라우저에서 채팅과 같은 기능을 구현하기 위해 필요한 기능입니다.
 
 이러한 기술이 널리 퍼지기 전에는 주기적으로 데이터를 확인하는 방법을 사용했습니다.
+
+![주기적으로 확인](01-polling.svg)
+
 주기적으로 확인하는 방법은 주기를 길게 잡으면 반응성이 떨어지고
 주기를 짧게 잡으면 부하가 커지는 문제가 있었습니다.
 
-![](드문 확인(늦은 메세지 확인)<->잦은 확인(서버 부하 증가))
+![드문 확인(늦은 메세지 확인)<->잦은 확인(서버 부하 증가)](02-tradeoff-polling.svg)
 
 이후 이런 문제 없이 낮은 서버 부하로 높은 반응성을 구현하기 위해
-응답을 이벤트 발생할때 보내는 Long-polling 같은 방법을 사용하다가
-WebSocket 같은 전용 기능이 만들어져 널리 쓰이고 있습니다.
+요청이 오자마자 응답을 보내지 않고 잡고 있다가 이벤트가 발생하면 응답을 보내는 Long-polling, HTTP Streaming 같은 방법이 만들어졌습니다.
+그리고 최근에는 이를 위한 전용 기술인 WebSocket 같은 전용 기능이 만들어져 널리 쓰이고 있습니다.
 
-Django는 이러한 기술이 인기를 끌기 전에 만들어진 프레임워크 여서 관련된 기능의 지원이 매우 빈약한 편입니다.
+![WebSocket](03-websocket.svg)
+
+Django는 이러한 기술이 인기를 끌기 전에 만들어져 관련된 기능의 지원이 매우 빈약한 편입니다.
 
 Django 에서도 [Channels](https://channels.readthedocs.io/en/latest/) 라는 실시간 기능을 지원하는 API가 추가되었습니다만
-처음부터 지원하는 프레임워크에 비하면 편의성이 떨어집니다.  
+처음부터 이를 고려하여 설계된 프레임워크에 비하면 편의성이 떨어집니다.  
 
 이런 실시간 기능을 잘 지원하는 프레임워크로는 [Meteor](https://www.meteor.com/)가 대표적입니다.
 
@@ -52,13 +53,12 @@ Django 에서도 [Channels](https://channels.readthedocs.io/en/latest/) 라는 �
 
 ### 주문을 완료한 고객에게 이메일을 보내야 합니다. 
 이메일을 보내는데 2초의 시간이 걸린다면 사용자는 항상 주문 후 2초간 빈 화면을 보며 기다리게 될겁니다.
-하지만 화면을 보여주는데 필수적인 작업이 아니라면 먼저 주문 완료 화면을 보여준 뒤 오래 걸리는 작업은 나중에 별도로 처리할 수도 있습니다.
+하지만 화면을 보여주는데 필수적인 작업이 아니라면 먼저 주문 완료 화면을 보여준 뒤 오래 걸리는 작업은 따로 처리할 수도 있습니다.
 
-![](동기식 vs 비동기식)
+![긴 작업 처리의 동기식 vs 비동기식](04-sync-vs-async-long-task.svg)
 
 최근의 웹 프레임워크들이 이러한 백그라운드 작업을 위한 도구를 미리 제공하는데 비해 Django는 이를 기본으로 제공하지 않습니다. 다만 [Celery](http://www.celeryproject.org/)같은 별도의 프로그램을 구성해서 처리할 수 있습니다.
- 
-![](celery 사용한 이메일 전송)
+
 
 ### 한 페이지에서 여러 모델의 값을 읽어서 보여줘야 합니다.
 여러개의 Book 모델을 가지고 와야 하는 경우 Django에서는 다음과 같은 코드를 사용할 수 있을겁니다. 
@@ -72,35 +72,35 @@ Book.objects.get(id=3)
 
 다른 방법으로 여러 쿼리를 모두 보내고 순서에 상관없이 응답을 기다리고 있다가 모든 응답이 도착하면 진행하는 방법도 있습니다.
  
-![](동기식 vs 비동기식 시간 비교)
+![여러 작업의 동기식 vs 비동기식](05-sync-vs-async-multiple-task.svg)
 
 이러한 방식을 사용하면 사용자에게도 더 빠른 응답을 줄 뿐 아니라 서버를 더 효율적으로 활용할 수 있습니다.
 
-이 또한 Celery로 비슷한 방식의 구현을 할 수 있지만 언어나 프레임워크 수준에서 지원하는것에 비해 설정이 복잡해지고 오버헤드가 매우 큽니다.
+이 또한 Celery를 이용해 비슷한 방식의 구현을 할 수 있지만 언어나 프레임워크 수준에서 지원하는것에 비해 설정이 복잡해지고 오버헤드가 매우 큽니다.
 
 
 ## 페이지 동적 로딩
-버튼을 눌렀을때 전체 페이지를 새롭게 불러오는 대신 바뀐 부분만 JavaScript를 이용해 교체한다면 사용자는 훨씬 빠르게 내용을 확인할 수 있을겁니다.
+버튼을 눌렀을때 전체 페이지를 새롭게 불러오는 대신 바뀐 부분만 JavaScript를 이용해 교체한다면
+화면이 넘어가는 흰 화면을 보지 않아도 되고 훨씬 빠르게 내용을 확인할 수 있을겁니다.
 
-![.gif](full-reload vs ajax table)
+![Table without AJAX](table-wo-ajax.gif)
+![Table with AJAX](table-with-ajax.gif)
 
-이런 기능을 페이지 내 일부분에만 적용하는 것이 아니라 전체 페이지에 대해서 적용한다면 훨씬 빠르게 사이트내에서 돌아다닐 수 있을겁니다.
- 
-![.gif](dynamic loading vs static loading)    
+이런 방법을 페이지 내 일부분에만 적용하는 것이 아니라 전체 페이지에 적용한다면 사용자는 사이트를 훨씬 빠르게 돌아다닐 수 있을겁니다.
 
-이러한 기능을 적절하게 활용하면 흰 화면 대신 적절한 로딩 화면을 보여줄 수도 있습니다.
+이러한 방법을 적절하게 활용하면 흰 화면 대신 적절한 로딩 화면을 보여줄 수도 있습니다.
 
-![.gif](흰 화면 대신 로딩 화면을 보여준 후 페이지 이동이 되는 thepin.ch)
+![흰 화면 대신 로딩 화면을 보여준 후 페이지 이동이 되는 thepin.ch](thepinch-loading-screen.gif)
 
 같은 뷰 템플릿을 서버와 브라우저에서 공유해서 사용한다면 이러한 구현을 더욱 손쉽게 할 수 있습니다.
 
-하지만 Django를 사용한다면 서버와 브라우저의 템플릿이 각각 존재하는게 자연스러운 구조가 됩니다.
+하지만 Django를 사용한다면 공통의 템플릿을 사용하기 까다로워 각각의 템플릿을 만드는 경우가 많습니다.
 
-이렇게 서버와 브라우저의 템플릿이 별도로 존재하는 Instagram 같은 사이트는 목록 페이지에서 상세화면을 눌렀을때와 상세화면으로 바로 갔을 때의 화면이 서로 다른걸 볼 수 있습니다.
+이렇게 서버와 브라우저의 템플릿이 별도로 존재하고 내용에도 차이가 있는 Instagram 같은 사이트는 목록 페이지에서 상세화면을 눌렀을때와 상세화면으로 바로 갔을 때의 화면이 서로 다른걸 볼 수 있습니다.
 
-![.gif](목록에서 눌렀을땐 팝업. 새로고침 하면 목록 사라짐)
+![목록에서 눌렀을땐 팝업. 새로고침 하면 목록 사라짐](instagram-diff-client-server.gif)
 
-Gatsby와 같은 프레임워크는 개발자가 별도로 신경을 쓰지 않아도 기본적으로 모든 페이지의 링크를 가로채어 JavaScript로 화면을 교체하도록 구현되어있습니다. 
+Gatsby 같은 프레임워크는 개발자가 별도로 신경을 쓰지 않아도 기본적으로 모든 페이지의 링크를 가로채어 JavaScript로 화면을 교체하도록 구현되어있습니다. 
 
 
 ## Server Side Rendering
@@ -108,15 +108,15 @@ Gatsby와 같은 프레임워크는 개발자가 별도로 신경을 쓰지 않�
 
 [instagram.com/dlwlrma](https://instagram.com/dlwlrma) 같은 인스타그램의 사용자 페이지를 보면 페이지상에는 이미지들이 존재하지만 소스 코드 상에는 <img /> 태그가 없는것을 보실 수 있습니다.
 
-![](Instagram 화면과 소스코드)
+![Instagram 이미지가 있는 화면 소스에 img 태그는 없어요](instagram-no-img-tag.png)
 
-이러한 방식으로 개발한 웹사이트는 페이지의 html 코드만 보고 그 내용을 확인하기 어렵습니다.
+이러한 방식으로 개발한 웹사이트는 페이지의 HTML 코드만 보고 그 내용을 확인하기 어렵습니다.
 이는 곧 검색엔진이 그 페이지의 내용을 알기 어렵다는 뜻이기도 하고 검색했을때 결과로 나올 확률이 낮아진다는 이야기 이기도 합니다.  
  
-그래서 브라우저에서 JavaScript로 내용을 채우는 대신 동일한 방식으로 서버에서 내용을 채운 HTML을 미리 보내주는 Server Side Rendering 이 대세가 되었습니다.  
+그래서 이 문제를 보완하기 위해 브라우저에서 JavaScript로 내용을 채우는 대신 동일한 방식으로 서버에서 내용을 채운 HTML을 미리 보내주는 Server Side Rendering을 많이 사용하게 되었습니다.  
 이런 SSR을 지원하는 데에는 NodeJS 만한게 없습니다. 종종 SSR을 지원하는 프레임워크들이 있지만 구현을 살펴보면 내부적으로는 NodeJS를 사용하는게 대부분입니다.
 
-Django 역시 이러한 [SSR을 지원하는 확장](https://github.com/markfinger/python-react)이 있습니다. 
+Django 역시 이러한 [SSR을 지원하는 확장](https://github.com/markfinger/python-react)이 있습니다.
 다만 네이티브로 지원하는 NodeJS나 좀 더 잘 통합되어있는 [ASP.NET](https://reactjs.net/) 에 비하면 아쉬움이 있습니다.
 
 
@@ -135,7 +135,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 최근에 만들어진 프로그래밍 언어들은 이러한 오류가 발생하는것을 미연에 방지하기 위해 타입 시스템과 같은 여러 장치들이 마련되어있습니다. 
 이런 타입 안정성을 미리 고려하여 설계된 최근의 언어로는 Kotlin, Swift, Typescript, Rust 등이 있습니다.
 
-Python에도 최근 타입 힌팅 기능이 추가되었지만 강제성이 없을 뿐 아니라 타입 시스템도 상대적으로 빈약하며 도구 지원은 아직 매우 형편없는 수준입니다.
+Python에도 최근 타입 힌팅 기능이 추가되었지만 강제성이 없을 뿐 아니라 타입 시스템도 상대적으로 빈약하며 도구 지원은 아직 매우 미비한 수준입니다.
 현재는 [mypy](http://mypy-lang.org/)같은 프로그램을 실행하여 확인하거나 PyCharm 같은 개발 도구 상에서 미리 확인할 수 있습니다.  
 
 거기에 Python은 문법이 처음부터 타입 시스템을 염두해 설계된것이 아니다 보니
@@ -152,30 +152,30 @@ Python에서 더 자주 타입명을 직접 써줘야 하는 아이러니가 발
 하지만 Django에선 거의 시간을 들이지 않고도 '쓸 수 있는' 수준의 관리자 화면을 바로 가질 수 있습니다.
 그리고 이 관리자 화면은 깊은 수준까지 Customize가 가능하여 실서비스용으로 사용할 수도 있습니다.
    
-![](Django Admin 스크린)
+![Django Admin 스크린](django-admin.png)
 
 
 ## 기본 보안
 중요하지만 막상 구현하려면 손도 많이 가고 신경도 많이 들어가는 부분입니다. 
-[Django는 기본으로 제공하는 보안을 위한 기능이 아주 다양하게 이미 구현되어 있습니다.](https://docs.djangoproject.com/en/2.1/topics/security/) 
+[Django는 제법 다양한 공격에 대한 대응할 수 있는 기능이 이미 구현되어 있습니다.](https://docs.djangoproject.com/en/2.1/topics/security/) 
 
 각 기능들이 어떤 공격으로 부터 보호하는 것 인지는 차후에 다른 글에서 자세히 알아보겠습니다.
-이러한 기능들이 처음 접하는 사람들에겐 당황스럽거나 번거롭게 하기도 하지만 하나하나 살펴보면 각자 나름대로의 중요한 역할들을 하고 있습니다.  
+이러한 기능들이 처음 Django로 개발 하는 사람들을 당황하게 만들거나 번거롭게 만들기도 하지만 하나하나 살펴보면 각자 나름대로의 중요한 역할들을 하고 있습니다.  
 
 
 ## 쉽고 편한 개발, 디버깅 환경  
 
 ### Django Debug Toolbar
 
-[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar)를 이용하면 현재 보고 있는 화면의 설정, 실행된 SQL과 실행계획, 각 단계별로 걸린 시간 등을 보고 이를 통해 버그를 찾거나 최적화를 할 수 있습니다.
+[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar)를 이용하면 현재 보고 있는 화면의 설정, 실행된 SQL과 SQL별 실행계획, 각 단계별로 걸린 시간 등을 보고 이를 통해 버그를 찾거나 최적화를 할 수 있습니다.
 
-![](Django Debug Toolbar 스크린샷)
+![Django Debug Toolbar 스크린샷](django-debug-toolbar.png)
 
 ### Django Extensions Debugger
 
-[Django Extensions](https://github.com/django-extensions/django-extensions)의 run_server_plus를 이용하면 심지어 오류가 난 시점 부분부터 브라우저 상에서 바로 Python 코드를 실행할 수 있습니다.
+[Django Extensions](https://github.com/django-extensions/django-extensions)의 run\_server_plus를 이용하면 심지어 오류가 난 시점 부분부터 브라우저 상에서 바로 Python 코드를 실행할 수 있습니다.
  
-![](브라우저에서 오류난 지점부터 바로 코드 실행 gif)
+![브라우저에서 오류난 지점부터 바로 코드 실행 gif](django-extensions-runserver.gif)
 
 이 두가지 도구를 이용해 개발하고 디버깅 하는데 익숙해진다면 비슷한 도구가 없는 환경에서 개발하는게 모레주머니를 찬 기분이 들게 할겁니다.
 
@@ -185,6 +185,8 @@ Django Extensions나 Django Debug Toolbar뿐 아니라
 브라우저 상에서 i18n을 위한 .po파일을 바로 만들 수 있는 [Rosetta](https://github.com/mbi/django-rosetta),
 RESTful한 API를 쉽게 만들 수 있게 해주는 [Django REST Framework](https://github.com/encode/django-rest-framework)
 등 검색, 캐싱, 이미지 변환, CDN 지원 등등 [수 많은 유용한 확장들](https://djangopackages.org/)이 존재합니다.
+
+![Rosetta](rosetta.png)
 
 StackOverflow와 비슷한 질답 사이트를 만들 수 있는 [Askbot](https://askbot.com/),
 프로그램에서 발생하는 오류를 수집하고 관리 할 수 있는 [Sentry](https://sentry.io/welcome/) 등 Django를 기반으로 만든 프로그램도 많이 존재 합니다.
@@ -214,7 +216,7 @@ Django는 이 글에서 비교 대상으로 삼았던 새로나온 프레임워�
 Django가 상대적으로 느린 편이긴 하지만 확장이 용이한 편이기 때문에 성능 때문에 다른 프레임워크를 선택할 일은 매우 드뭅니다. 
 
 Django로 돌아가고 있는 Instagram보다 사용자가 많은 사이트를 만드신다면 고민해보세요.
-(물론 Instagram은 ORM 부분을 거의 새롭게 구현해야 했다고 합니다.)
+(뭐 Instagram은 ORM 부분을 거의 새롭게 구현해야 했다고 합니다.)
  
 
 # 결론

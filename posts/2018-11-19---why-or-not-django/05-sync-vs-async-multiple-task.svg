@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="872.833" height="406" viewBox="0, 0, 872.833, 406">
+  <g id="Layer_1" transform="translate(-126.667, -1390)">
+    <g>
+      <path d="M144.5,1576.215 L144.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M210.5,1576.215 L210.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M276.5,1576.215 L276.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M341.5,1576.215 L341.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M407.5,1576.215 L407.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M473.5,1576.215 L473.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M539.5,1576.215 L539.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M604.5,1576.215 L604.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M670.5,1576.215 L670.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M736.5,1576.215 L736.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M802.5,1576.215 L802.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M867.5,1576.215 L867.5,1432.667" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+    </g>
+    <g>
+      <g opacity="0.2">
+        <path d="M127.667,1432.667 L885,1432.667 L885,1456.667 L127.667,1456.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1432.667 L885,1432.667 L885,1456.667 L127.667,1456.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1456.667 L885,1456.667 L885,1480.667 L127.667,1480.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1456.667 L885,1456.667 L885,1480.667 L127.667,1480.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1480.667 L885,1480.667 L885,1504.667 L127.667,1504.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1480.667 L885,1480.667 L885,1504.667 L127.667,1504.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1504.667 L885,1504.667 L885,1528.667 L127.667,1528.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1504.667 L885,1504.667 L885,1528.667 L127.667,1528.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1528.667 L885,1528.667 L885,1552.667 L127.667,1552.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1528.667 L885,1528.667 L885,1552.667 L127.667,1552.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1552.667 L885,1552.667 L885,1576.667 L127.667,1576.667 z" fill="#ECECFF"/>
+        <path d="M127.667,1552.667 L885,1552.667 L885,1576.667 L127.667,1576.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M147.5,1432.667 L207.5,1432.667 C209.157,1432.667 210.5,1434.01 210.5,1435.667 L210.5,1449.667 C210.5,1451.323 209.157,1452.667 207.5,1452.667 L147.5,1452.667 C145.843,1452.667 144.5,1451.323 144.5,1449.667 L144.5,1435.667 C144.5,1434.01 145.843,1432.667 147.5,1432.667 z" fill="#ECECFF"/>
+        <path d="M147.5,1432.667 L207.5,1432.667 C209.157,1432.667 210.5,1434.01 210.5,1435.667 L210.5,1449.667 C210.5,1451.323 209.157,1452.667 207.5,1452.667 L147.5,1452.667 C145.843,1452.667 144.5,1451.323 144.5,1449.667 L144.5,1435.667 C144.5,1434.01 145.843,1432.667 147.5,1432.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M213.5,1456.667 L371.5,1456.667 C373.157,1456.667 374.5,1458.01 374.5,1459.667 L374.5,1473.667 C374.5,1475.323 373.157,1476.667 371.5,1476.667 L213.5,1476.667 C211.843,1476.667 210.5,1475.323 210.5,1473.667 L210.5,1459.667 C210.5,1458.01 211.843,1456.667 213.5,1456.667 z" fill="#ECECFF"/>
+        <path d="M213.5,1456.667 L371.5,1456.667 C373.157,1456.667 374.5,1458.01 374.5,1459.667 L374.5,1473.667 C374.5,1475.323 373.157,1476.667 371.5,1476.667 L213.5,1476.667 C211.843,1476.667 210.5,1475.323 210.5,1473.667 L210.5,1459.667 C210.5,1458.01 211.843,1456.667 213.5,1456.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M377.5,1480.667 L601.5,1480.667 C603.157,1480.667 604.5,1482.01 604.5,1483.667 L604.5,1497.667 C604.5,1499.323 603.157,1500.667 601.5,1500.667 L377.5,1500.667 C375.843,1500.667 374.5,1499.323 374.5,1497.667 L374.5,1483.667 C374.5,1482.01 375.843,1480.667 377.5,1480.667 z" fill="#ECECFF"/>
+        <path d="M377.5,1480.667 L601.5,1480.667 C603.157,1480.667 604.5,1482.01 604.5,1483.667 L604.5,1497.667 C604.5,1499.323 603.157,1500.667 601.5,1500.667 L377.5,1500.667 C375.843,1500.667 374.5,1499.323 374.5,1497.667 L374.5,1483.667 C374.5,1482.01 375.843,1480.667 377.5,1480.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M607.5,1504.667 L799.5,1504.667 C801.157,1504.667 802.5,1506.01 802.5,1507.667 L802.5,1521.667 C802.5,1523.323 801.157,1524.667 799.5,1524.667 L607.5,1524.667 C605.843,1524.667 604.5,1523.323 604.5,1521.667 L604.5,1507.667 C604.5,1506.01 605.843,1504.667 607.5,1504.667 z" fill="#ECECFF"/>
+        <path d="M607.5,1504.667 L799.5,1504.667 C801.157,1504.667 802.5,1506.01 802.5,1507.667 L802.5,1521.667 C802.5,1523.323 801.157,1524.667 799.5,1524.667 L607.5,1524.667 C605.843,1524.667 604.5,1523.323 604.5,1521.667 L604.5,1507.667 C604.5,1506.01 605.843,1504.667 607.5,1504.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M805.5,1528.667 L864.5,1528.667 C866.157,1528.667 867.5,1530.01 867.5,1531.667 L867.5,1545.667 C867.5,1547.323 866.157,1548.667 864.5,1548.667 L805.5,1548.667 C803.843,1548.667 802.5,1547.323 802.5,1545.667 L802.5,1531.667 C802.5,1530.01 803.843,1528.667 805.5,1528.667 z" fill="#ECECFF"/>
+        <path d="M805.5,1528.667 L864.5,1528.667 C866.157,1528.667 867.5,1530.01 867.5,1531.667 L867.5,1545.667 C867.5,1547.323 866.157,1548.667 864.5,1548.667 L805.5,1548.667 C803.843,1548.667 802.5,1547.323 802.5,1545.667 L802.5,1531.667 C802.5,1530.01 803.843,1528.667 805.5,1528.667 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 177.5, 1443.667)">
+        <tspan x="-27.339" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">브라우저</tspan>
+        <tspan x="7.261" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="10.039" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">요청</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 292.5, 1467.167)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 1</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 489.5, 1491.167)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 2</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 703.5, 1515.167)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 3</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 835, 1539.667)">
+        <tspan x="-18.689" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">서버</tspan>
+        <tspan x="-1.389" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="1.389" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">응답</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M144.5,1794.549 L144.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M210.5,1794.549 L210.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M276.5,1794.549 L276.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M341.5,1794.549 L341.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M407.5,1794.549 L407.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M473.5,1794.549 L473.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M539.5,1794.549 L539.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M604.5,1794.549 L604.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M670.5,1794.549 L670.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M736.5,1794.549 L736.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M802.5,1794.549 L802.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      <path d="M867.5,1794.549 L867.5,1651" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+    </g>
+    <g>
+      <g opacity="0.2">
+        <path d="M127.667,1651 L885,1651 L885,1675 L127.667,1675 z" fill="#ECECFF"/>
+        <path d="M127.667,1651 L885,1651 L885,1675 L127.667,1675 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1675 L885,1675 L885,1699 L127.667,1699 z" fill="#ECECFF"/>
+        <path d="M127.667,1675 L885,1675 L885,1699 L127.667,1699 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1699 L885,1699 L885,1723 L127.667,1723 z" fill="#ECECFF"/>
+        <path d="M127.667,1699 L885,1699 L885,1723 L127.667,1723 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1723 L885,1723 L885,1747 L127.667,1747 z" fill="#ECECFF"/>
+        <path d="M127.667,1723 L885,1723 L885,1747 L127.667,1747 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1747 L885,1747 L885,1771 L127.667,1771 z" fill="#ECECFF"/>
+        <path d="M127.667,1747 L885,1747 L885,1771 L127.667,1771 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+      <g opacity="0.2">
+        <path d="M127.667,1771 L885,1771 L885,1795 L127.667,1795 z" fill="#ECECFF"/>
+        <path d="M127.667,1771 L885,1771 L885,1795 L127.667,1795 z" fill-opacity="0" stroke="#9370DB" stroke-width="1"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M147.5,1651 L207.5,1651 C209.157,1651 210.5,1652.343 210.5,1654 L210.5,1668 C210.5,1669.657 209.157,1671 207.5,1671 L147.5,1671 C145.843,1671 144.5,1669.657 144.5,1668 L144.5,1654 C144.5,1652.343 145.843,1651 147.5,1651 z" fill="#ECECFF"/>
+        <path d="M147.5,1651 L207.5,1651 C209.157,1651 210.5,1652.343 210.5,1654 L210.5,1668 C210.5,1669.657 209.157,1671 207.5,1671 L147.5,1671 C145.843,1671 144.5,1669.657 144.5,1668 L144.5,1654 C144.5,1652.343 145.843,1651 147.5,1651 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M213.5,1675 L371.5,1675 C373.157,1675 374.5,1676.343 374.5,1678 L374.5,1692 C374.5,1693.657 373.157,1695 371.5,1695 L213.5,1695 C211.843,1695 210.5,1693.657 210.5,1692 L210.5,1678 C210.5,1676.343 211.843,1675 213.5,1675 z" fill="#ECECFF"/>
+        <path d="M213.5,1675 L371.5,1675 C373.157,1675 374.5,1676.343 374.5,1678 L374.5,1692 C374.5,1693.657 373.157,1695 371.5,1695 L213.5,1695 C211.843,1695 210.5,1693.657 210.5,1692 L210.5,1678 C210.5,1676.343 211.843,1675 213.5,1675 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M213.5,1699 L437.5,1699 C439.157,1699 440.5,1700.343 440.5,1702 L440.5,1716 C440.5,1717.657 439.157,1719 437.5,1719 L213.5,1719 C211.843,1719 210.5,1717.657 210.5,1716 L210.5,1702 C210.5,1700.343 211.843,1699 213.5,1699 z" fill="#ECECFF"/>
+        <path d="M213.5,1699 L437.5,1699 C439.157,1699 440.5,1700.343 440.5,1702 L440.5,1716 C440.5,1717.657 439.157,1719 437.5,1719 L213.5,1719 C211.843,1719 210.5,1717.657 210.5,1716 L210.5,1702 C210.5,1700.343 211.843,1699 213.5,1699 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M213.5,1723 L404.5,1723 C406.157,1723 407.5,1724.343 407.5,1726 L407.5,1740 C407.5,1741.657 406.157,1743 404.5,1743 L213.5,1743 C211.843,1743 210.5,1741.657 210.5,1740 L210.5,1726 C210.5,1724.343 211.843,1723 213.5,1723 z" fill="#ECECFF"/>
+        <path d="M213.5,1723 L404.5,1723 C406.157,1723 407.5,1724.343 407.5,1726 L407.5,1740 C407.5,1741.657 406.157,1743 404.5,1743 L213.5,1743 C211.843,1743 210.5,1741.657 210.5,1740 L210.5,1726 C210.5,1724.343 211.843,1723 213.5,1723 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <g>
+        <path d="M443.5,1747 L503.5,1747 C505.157,1747 506.5,1748.343 506.5,1750 L506.5,1764 C506.5,1765.657 505.157,1767 503.5,1767 L443.5,1767 C441.843,1767 440.5,1765.657 440.5,1764 L440.5,1750 C440.5,1748.343 441.843,1747 443.5,1747 z" fill="#ECECFF"/>
+        <path d="M443.5,1747 L503.5,1747 C505.157,1747 506.5,1748.343 506.5,1750 L506.5,1764 C506.5,1765.657 505.157,1767 503.5,1767 L443.5,1767 C441.843,1767 440.5,1765.657 440.5,1764 L440.5,1750 C440.5,1748.343 441.843,1747 443.5,1747 z" fill-opacity="0" stroke="#9370DB" stroke-width="2"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 177.5, 1662)">
+        <tspan x="-27.339" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">브라우저</tspan>
+        <tspan x="7.261" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="10.039" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">요청</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 292.5, 1685.5)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 1</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 325.5, 1709.5)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 2</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 309, 1733.5)">
+        <tspan x="-15.566" y="3" font-family="Helvetica" font-size="10" fill="#9370DB">Book 3</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 473.5, 1758)">
+        <tspan x="-18.689" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">서버</tspan>
+        <tspan x="-1.389" y="2.5" font-family="Helvetica" font-size="10" fill="#9370DB"> </tspan>
+        <tspan x="1.389" y="2.5" font-family="AppleSDGothicNeo-Regular" font-size="10" fill="#9370DB">응답</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 334.777, 1404)">
+      <tspan x="-190.277" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">동기식으로</tspan>
+      <tspan x="-112.427" y="3" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="-107.426" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">여러개</tspan>
+      <tspan x="-60.716" y="3" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="-55.715" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">가져오기</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 334.777, 1625)">
+      <tspan x="-190.277" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">비동기식으로</tspan>
+      <tspan x="-96.857" y="3" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="-91.856" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">여러개</tspan>
+      <tspan x="-45.146" y="3" font-family="Helvetica" font-size="18" fill="#000000"> </tspan>
+      <tspan x="-40.145" y="3" font-family="AppleSDGothicNeo-Regular" font-size="18" fill="#000000">가져오기</tspan>
+    </text>
+  </g>
+</svg>
