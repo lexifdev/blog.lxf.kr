@@ -6,7 +6,9 @@ import { graphql, Link } from 'gatsby'
 
 
 export const pageQuery = graphql`{
-  allMarkdownRemark {
+  allMarkdownRemark(
+    sort: {order: DESC, fields: [frontmatter___date]}
+  ) {
     edges {
       node {
         fields {
