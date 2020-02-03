@@ -9,6 +9,7 @@ module.exports = {
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-stylus`,
         `gatsby-plugin-typography`,
+        `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
